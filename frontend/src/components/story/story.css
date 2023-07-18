@@ -1,0 +1,39 @@
+.storyContainer {
+  width: 610px;
+  background-color: white;
+  height: 110px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.storyFriends {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.storyProfileImgDiv {
+  height: 55px;
+  width: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ff9933 0%, #ff66ff 100%);
+}
+
+.storyProfileImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  background: linear-gradient(to right, #ff9933 0%, #ff66ff 100%);
+}
+
+.storyUsername {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 5px;
+}

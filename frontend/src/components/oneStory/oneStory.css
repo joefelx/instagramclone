@@ -1,0 +1,31 @@
+.storyFriend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.storyProfileImgDiv {
+  height: 55px;
+  width: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #ff9933 0%, #ff66ff 100%);
+  overflow: hidden;
+}
+.storyProfileImg {
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+  border: 2px solid #e6e6e6;
+}
+
+.storyUsername {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 5px;
+}

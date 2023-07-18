@@ -1,0 +1,90 @@
+.createPostContainer {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.39);
+  z-index: 1000;
+}
+
+.createPost {
+  width: 400px;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.createPostHeading {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.createPostHeading span {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.createPostInputText {
+  height: 60px;
+  width: 400px;
+  display: flex;
+  margin: 10px 0;
+}
+
+.createPostInputText input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 0 30px;
+  font-size: 20px;
+}
+
+.createPostInputText input::placeholder {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.createPostInputText input:focus {
+  outline: none;
+}
+
+.createPostInputImage {
+  margin: 10px 30px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.createPostInputImage input {
+  background-color: white;
+}
+
+.createPostButton {
+  margin: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.createPostButton button {
+  width: 100%;
+  height: 100%;
+  margin: 0 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #0095f6;
+  cursor: pointer;
+}

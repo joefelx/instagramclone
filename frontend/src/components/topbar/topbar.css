@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.topbarContainer {
+  height: 55px;
+  padding: 0 165px;
+  display: flex;
+  border-bottom: 1px solid #e6e6e6;
+  align-items: center;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.topbarLeft {
+  flex: 5;
+}
+
+.topbarLogo {
+  width: 100px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.topbarLogo img {
+  width: 100%;
+}
+
+.topbarCenter {
+  flex: 4;
+}
+
+.topbarSearch {
+  width: 215px;
+  border: 1px solid #e6e6e6;
+  background: #fafafa;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.topbarSearch input {
+  border: none;
+  font-family: "Roboto";
+  background-color: transparent;
+  text-align: center;
+  font-weight: 300;
+  width: 200px;
+  font-size: 14px;
+}
+
+.topbarSearch input:focus {
+  outline: none;
+}
+
+.topbarRight {
+  flex: 4;
+}
+
+.topbarIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbarIcon {
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 30px !important;
+}
+
+.topbarProfilePicture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}

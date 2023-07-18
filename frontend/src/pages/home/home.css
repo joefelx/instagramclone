@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+.homeContainer {
+  margin: 0 165px;
+  display: flex;
+}

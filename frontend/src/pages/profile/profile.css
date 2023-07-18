@@ -1,0 +1,99 @@
+.profileContainer {
+  padding: 0 170px;
+}
+
+.profileUser {
+  display: flex;
+  padding: 30px 65px;
+  margin-bottom: 25px;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  margin-right: 100px;
+}
+
+.profileImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+}
+
+.profileUsernameDiv {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.profileUsername {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.profileEditButton {
+  width: 90px;
+  height: 30px;
+  background: #fafafa;
+  font-weight: 600;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.profileUserCounts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.profileUserCount {
+  margin-right: 30px;
+}
+
+.profileUserCountNumber {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.profileUserDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profileFullName {
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.profileUserPosts {
+  border-top: 1px solid #e6e6e6;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profileUserPost {
+  width: 275px;
+  height: 275px;
+  object-fit: cover;
+  border: 1px solid #e6e6e6;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.profileUserPostImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profileUserPosts {
+  border-top: 1px solid #e6e6e6;
+  padding: 50px 0;
+}
